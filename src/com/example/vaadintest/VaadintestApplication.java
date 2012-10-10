@@ -11,7 +11,7 @@ public class VaadintestApplication extends Application {
 	
 	@Override
 	public void init() {
-		Window mainWindow = new Window("Vaadintest Application");
+		Window mainWindow = new Window("VaadinTest Application");
 		Label label = new Label("Hello Vaadin user");
 		mainWindow.addComponent(v);
 		setMainWindow(mainWindow);
